@@ -1,0 +1,58 @@
+@charset ="UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Source+Code+Pro:wght@300&display=swap');
+
+@media screen and (min-width:62.5em){
+    section.secao1 {
+        background-color: white;
+        background-image: url(../img/ib.jpg);
+        height: 30em;
+        
+
+    }
+    p{ margin: 3em;}
+}
+
+/* OUTRA MEDIA SCREEN AUMENTANDO O TAMANHO DA TELA PARA DESKTOP */
+
+@media screen and (min-width:64em){
+    section.secao1 {
+        background-image: url(../img/ic.jpg)
+        padding: 19em 20em 10em;
+        background-position: center top;
+    }
+
+    p {
+        margin: 1em;
+    }
+}
+
+    h1#sobre1 {
+
+        color: rgba(0, 0, 0,0.8);
+        font-weight: 900;
+
+    }
+
+    h2#sobre2 {
+
+        color: rgba(0, 0, 0,1);
+        font-weight: 900;
+        margin-top: 100px;
+        font-size: 1.3em;
+
+    }
+
+p {
+    font-family: 'Dosis', sans-serif;
+font-family: 'Source Code Pro', monospace;
+ margin: 3em;
+ text-align: justify;
+}
+
+nav.navegacao a {
+    color: white;
+  }
+
+  nav.navegacao a:hover {
+      background-color: rgb(165, 189, 221);
+  }

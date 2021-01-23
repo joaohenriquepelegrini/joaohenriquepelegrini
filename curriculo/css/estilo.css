@@ -1,0 +1,292 @@
+@charset = "UTF-8";
+
+@charset ="UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&family=Raleway:ital,wght@1,200&display=swap');
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.clearfix:after , .row:after{
+    content: ' ';
+    display: block;
+    clear: both;
+
+}
+
+nav.navegacao {
+    background-color: #58c4c4;
+    text-align: center;
+}
+
+nav.navegacao ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.navegacao a {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1em;
+
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    display: block;
+}
+
+nav.navegacao a:hover {
+    background-color:#2b5e5e ;
+    color: white;
+}
+
+header.cabecalho {
+    text-align: center;
+}
+
+img.logo {
+    margin: 0.5em;
+}
+
+section.secao1 {
+    padding: 1em;
+    text-align: center;
+    background-color: #f6f6f6;
+
+}
+
+h1.secao1titulo {
+    color: #20414e;
+    font: size 1.375em;;
+    margin: 1.375em;
+}
+
+h2.secao1subtitulo {
+    color: black;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.botao {
+    display: inline-block;
+    padding: .92em 2.5em;
+    background-color: #58c4c4;
+    color: white;
+    text-decoration: none;
+
+}
+
+.botao:hover {
+    background-color: #37a0a0;
+}
+
+
+section.firstarticles {
+
+    padding:2em ;
+    
+    text-align: center;
+}
+
+.firstarticles span[class^=icon]{
+    font-size:2.5em ;
+    color:  #ccc;
+}
+
+.firstarticles span[id^=css]{
+    color: blue;
+}
+
+.firstarticles span[id^=html]{
+    color: orange;
+}
+
+h3.tituloartigo {
+    font: size 1.37em; 
+    color:  #37a0a0;
+    text-transform: uppercase;
+
+}
+
+section.firstarticles p {
+    color: #222222;
+    line-height: 1.5;
+}
+
+
+
+section.main-content {
+
+    padding: 2em;
+
+}
+
+section.main-content p {
+    line-height: 1.5;
+}
+
+.main-content-article {
+    margin-bottom: 3.5em;
+}
+
+.main-content-title {
+
+    letter-spacing: 0.2em;
+    color: rgb(24, 109, 165);
+    font-weight: bold;
+
+}
+
+
+
+span.hidden {
+    opacity: 0;
+    
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+
+}
+
+.footer {
+    background-color: rgb(172, 219, 172);
+    text-align: center;
+    padding-bottom: 2em;
+
+}
+
+ul.footer-menushare  {
+    
+   margin: 0%;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    
+    margin-top: 10px;
+    width: 100%;
+    
+    
+
+}
+
+.footer-menushare li {
+  margin: 0 1em;
+    display: inline-block;
+   
+   
+
+}
+
+.footer-menushare a {
+    text-decoration: none;
+      font-size: 2em;
+    color: white;
+   
+   
+}
+
+
+
+
+@media screen and (min-width:48.75em) {
+   
+   
+ img.logo {
+     float: left;
+
+    }
+   
+    nav.navegacao {
+     
+        float: right;
+        background: transparent;
+        margin-top: 25px;
+    }
+
+    nav.navegacao ul {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    nav.navegacao li {
+        display: inline-block;
+       
+
+    }
+
+    nav.navegacao a {
+      color: black;
+    }
+
+    nav.navegacao a:hover {
+        background-color: rgb(165, 189, 221);
+    }
+    section.secao1 {
+       
+        color: rgb(59, 36, 95);
+    }
+
+    h1.secao1titulo {
+        color: rgb(59, 36, 95);
+    }
+}
+
+
+.col-1_4 {
+
+    width: 44%;
+    margin: 3%;
+    float: left;
+}
+
+/* OUTRA MEDIA SCREEN AUMENTANDO O TAMANHO DA TELA PARA DESKTOP */
+
+@media screen and (min-width:62.5em){
+    section.secao1 {
+        background-color: white;
+        background-image: url(../img/imgmedia.jpg);
+        height: 30em;
+        
+
+    }
+}
+
+/* OUTRA MEDIA SCREEN AUMENTANDO O TAMANHO DA TELA PARA DESKTOP */
+
+@media screen and (min-width:64em){
+    section.secao1 {
+        background-image: url(../img/imggrande.jpg);
+        padding: 19em 20em 10em;
+        background-position: center top;
+    }
+
+    article.col-1_4 {
+        width: 23%;
+        margin: 1%;
+
+    }
+
+
+   
+}
+
+
+h3#experienciaprofissional {
+
+    font-size: 1.5em;
+    color: rgb(108, 97, 255);
+}
